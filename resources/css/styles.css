@@ -1,0 +1,51 @@
+*{
+    border: 1px solid red;
+}
+.container{
+    border: 1px solid black;
+    
+
+ 
+}
+/* change element as ul element is blow and can not be made into inline */
+ul{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* colors */
+.color{
+    min-height: 100px;
+    width: 100px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+li {
+    width: 100px;
+    text-align: center;
+    
+}
+
+
+#yellow{
+    background-color: #FBE8A6;
+}
+#citrus{
+    background-color:#F4976C;
+}
+#navy{
+    background-color:#303C6C;
+}
+#gloomy{
+    background-color: #B4DFE5 ;
+}
+#clear{
+    background-color: #D2FDFF;
+}
+
