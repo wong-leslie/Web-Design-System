@@ -2,31 +2,37 @@
     border: 1px solid red;
 }
 .container{
+    display: inline-block;
     border: 1px solid black;
-    
-
- 
+    width: 100%;
 }
-/* change element as ul element is blow and can not be made into inline */
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+}
+h1{ 
+    font-family: "Quicksand", sans-serif;
+    font-size: 36px;
+}
 ul{
+    height: 24rem;
     margin: auto;
     padding: auto;
     display: flex;
-    justify-content: space-between;
 }
 /* colors */
 .color{
-    min-height: 100px;
-    width: 100px;
     list-style: none;
-    display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-
+    width: 20%;
 }
-
+.colors li{
+    color: black;
+}
 li {
+    
     width: 100px;
     text-align: center;
     
